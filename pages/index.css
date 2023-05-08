@@ -2,6 +2,8 @@
 @import url(../vendor/normalize.css);
 /*Подключение стилей .fonts*/
 @import url(../fonts/inter.css);
+/*Подключение стилей .background*/
+@import url(../blocks/background/background.css);
 /*Подключение стилей .page*/
 @import url(../blocks/page/page.css);
 /*Подключение стилей .header*/
