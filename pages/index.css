@@ -1,13 +1,16 @@
 /*Подключение стилей normalize.css*/
 @import url(../vendor/normalize.css);
+/*Подключение стилей .fonts*/
+@import url(../fonts/inter.css);
 /*Подключение стилей .page*/
-@import url(../blocks/page.css);
+@import url(../blocks/page/page.css);
 /*Подключение стилей .header*/
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-links/header__lang-links.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/__link-item/header__link-item.css);
+@import url(../blocks/header/__link-item/_active/header__link-item_active.css);
 /*Подключение стилей .content*/
 @import url(../blocks/content/content.css);
 /*Подключение стилей .lead*/
@@ -22,6 +25,7 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__list-fact/intro__list-fact.css);
+@import url(../blocks/intro/__digits/intro__digits.css);
 /*Подключение стилей .photo-grid*/
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__list/photo-grid__list.css);
